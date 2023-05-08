@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPT.API.Consumer.Server", "ChatGPT.API.Consumer\Server\ChatGPT.API.Consumer.Server.csproj", "{3EEBC285-74BF-4E4A-9843-5F4C45B41CB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPT.API.Consumer.Client", "ChatGPT.API.Consumer\Client\ChatGPT.API.Consumer.Client.csproj", "{CDB3294E-E739-4785-B944-9884C641E4D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPT.API.Consumer.Shared", "ChatGPT.API.Consumer\Shared\ChatGPT.API.Consumer.Shared.csproj", "{F937434C-0FED-4A0F-B878-3368B9D8CE2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EEBC285-74BF-4E4A-9843-5F4C45B41CB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EEBC285-74BF-4E4A-9843-5F4C45B41CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EEBC285-74BF-4E4A-9843-5F4C45B41CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EEBC285-74BF-4E4A-9843-5F4C45B41CB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDB3294E-E739-4785-B944-9884C641E4D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB3294E-E739-4785-B944-9884C641E4D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB3294E-E739-4785-B944-9884C641E4D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB3294E-E739-4785-B944-9884C641E4D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F937434C-0FED-4A0F-B878-3368B9D8CE2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F937434C-0FED-4A0F-B878-3368B9D8CE2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F937434C-0FED-4A0F-B878-3368B9D8CE2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F937434C-0FED-4A0F-B878-3368B9D8CE2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F60E0C7-F7A7-4A30-8AA6-3B0544CFF262}
+	EndGlobalSection
+EndGlobal

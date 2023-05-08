@@ -1,0 +1,41 @@
+﻿@*
+    ChatGTP API implementation. Reference web post:
+    https://www.codeproject.com/Articles/5358151/Integrating-ChatGPT-API-in-Csharp
+    Install-Package Betalgo.OpenAI.GPT3
+*@
+
+
+@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<h1>@title</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <RadzenCard>
+            <div class="row">
+                @lblRequest <RadzenTextBox Placeholder=@lblRequest @bind-Value=@txtRequest Class="w-100" />
+                <br />
+                <br />
+                <br />
+                <center>
+                    <button class="btn btn-primary" @onclick="(() => Submit())">@submit</button>
+                </center>
+            </div>
+        </RadzenCard>
+    </div>
+    <div class="col-md-8">
+        <RadzenCard>
+            <p>
+                <b>@lblResponse</b>
+            </p>
+            <p>
+                @txtResponse
+            </p>
+        </RadzenCard>
+    </div>
+</div>
+
+<br />
+<br />
