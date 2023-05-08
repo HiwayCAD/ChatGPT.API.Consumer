@@ -44,7 +44,7 @@ namespace ChatGPT.API.Consumer.Client.Pages
         {
             var gpt3 = new OpenAIService(new OpenAiOptions()
             {
-                ApiKey = "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"
+                ApiKey = "YOUR OWN CHATGPT API SECURITY KEY"
             });
 
             var completionResult = await gpt3.ChatCompletion.CreateCompletion
